@@ -7,4 +7,8 @@ module bmt.taskmanageravanzato {
 
     opens bmt.taskmanageravanzato to javafx.fxml;
     exports bmt.taskmanageravanzato;
+    exports bmt.taskmanageravanzato.Controller;
+    opens bmt.taskmanageravanzato.Controller to javafx.fxml;
+    exports bmt.taskmanageravanzato.model;
+    opens bmt.taskmanageravanzato.model to javafx.fxml;
 }
